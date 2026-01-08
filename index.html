@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
-    
+
 </head>
+
 <body>
 
 
-    <div class=" particulas"></div>
+    <div class="particulas"></div>
 
-    
+
     <nav class="navegacao">
         <ul class="menu">
             <li>
@@ -32,60 +33,73 @@
     </nav>
 
 
-    <main id=" inicio" class="cabeçalho">
-    
+    <main id="home" class="cabeçalho">
+
         <img src="./caio.jpg" alt="foto de perfil" class="foto-perfil">
         <h1>Caio Lima Gomes </h1>
         <p class="sub">Desenvolvedor Front-End</p>
-    
+
     </main>
 
 
     <section id="sobre" class="sobre">
         <h2 class="sobre-titulo">Sobre Mim</h2>
         <div class="sobre-caixa">
-            <p class="sobre-paragrafo">Olá! Meu nome é Caio, tenho 23 anos e sou um desenvolvedor front-end apaixonado por criar experiências
-                digitais envolventes. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas, o que me proporciona
-                uma base sólida em tecnologia e programação. Tenho experiência prática com HTML, CSS e JavaScript, e estou
+            <p class="sobre-paragrafo">Olá! Meu nome é Caio, tenho 23 anos e sou um desenvolvedor front-end apaixonado
+                por criar experiências
+                digitais envolventes. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas, o que me
+                proporciona
+                uma base sólida em tecnologia e programação. Tenho experiência prática com HTML, CSS e JavaScript, e
+                estou
                 sempre buscando aprender novas tecnologias e aprimorar minhas habilidades. Estou entusiasmado para
                 contribuir com projetos inovadores e crescer profissionalmente na área de desenvolvimento web.</p>
         </div>
     </section>
 
 
-    <section id="projetos" class="projetos">
-        <h2 class="projetos-titulo">Meus Projetos</h2>
-        <div class="projetos-caixa">
-            <div class="projeto-card">
-                <img src="./caio.jpg" alt="projeto1" class="projetos-img">
-                <div class="caixa-textos-projeto">
-                    <h3 class="info-projetos">Loja de Carro</h3>
-                </div>
-                <p class="paragrafo-projeto">Descrição: Um site responsivo que apresenta meu trabalho, habilidades e
-                    informações de contato.</p>
+   <section id="projetos" class="projetos">
+    <h2 class="projetos-titulo">Meus Projetos</h2>
+    <div class="projetos-caixa">
+
+        <div class="projeto-card">
+            <img src="./limpeza.png" alt="projeto1" class="projetos-img">
+            <div class="caixa-textos-projeto">
+                <h3 class="info-projetos">Sistema de Agendamento Online</h3>
             </div>
-    
-            <div class="projeto-card">
-                <img src="./caio.jpg" alt="projeto2" class="projetos-img">
-                <div class="caixa-textos-projeto">
-                    <h3 class="info-projetos">Loja de Carro</h3>
-                </div>
-    
-                <p class="paragrafo-projeto">Descrição: Um site responsivo que apresenta meu trabalho, habilidades e
-                    informações de contato.</p>
-            </div>
-    
-            <div class="projeto-card">
-                <img src="./caio.jpg" alt="projeto3" class="projetos-img">
-                <div class="caixa-textos-projeto">
-                    <h3 class="info-projetos">Loja de Carro</h3>
-                </div>
-                <p class="paragrafo-projeto">Descrição: Um site responsivo que apresenta meu trabalho, habilidades e
-                    informações de contato.</p>
+            <p class="paragrafo-projeto">
+                <strong>Descrição:</strong> Sistema web responsivo para agendamento de serviços de limpeza profissional, desenvolvido em React. A plataforma conecta clientes e prestadores de serviço através de uma interface intuitiva.
+            </p>
+            <div class="caixa-link">
+                <a href="https://sistema-agendamento-limpeza.vercel.app" target="_blank" class="link-projeto">Visualizar Projeto</a>
             </div>
         </div>
-    </section>
 
+        <div class="projeto-card">
+            <img src="./Restaurante .png" alt="projeto2" class="projetos-img">
+            <div class="caixa-textos-projeto">
+                <h3 class="info-projetos">Menu Digital & Restaurante</h3> </div>
+            <p class="paragrafo-projeto">
+                <strong>Descrição:</strong> Sistema web responsivo para apresentação e gestão de cardápio digital, desenvolvido com foco na experiência do usuário. A plataforma permite a visualização detalhada de pratos e integração com canais de atendimento. (Em desenvolvimento)
+            </p>
+            <div class="caixa-link">
+                <a href="https://1902caio.github.io/riachojetbar/" target="_blank" class="link-projeto">Visualizar Projeto</a>
+            </div>
+        </div>
+
+        <div class="projeto-card">
+            <img src="./apresentaçao.png" alt="projeto3" class="projetos-img">
+            <div class="caixa-textos-projeto">
+                <h3 class="info-projetos">Catálogo de Eletrônicos</h3> </div>
+            <p class="paragrafo-projeto">
+                <strong>Descrição:</strong> Site responsivo para exibição de produtos eletrônicos, desenvolvido para destacar fotos e especificações técnicas. A plataforma foca em uma navegação simples e eficiente, facilitando a busca de dispositivos por categorias.
+            </p>
+            <div class="caixa-link">
+                <a href="#" target="_blank" class="link-projeto">Visualizar Projeto</a>
+            </div>
+        </div>
+
+    </div>
+</section>
 
     <section id="contato" class="contato">
         <h2 class="contato-titulo"> Entre em Contato</h2>
@@ -94,32 +108,32 @@
                 <input placeholder="nome" class="campo-form" id="nome">
             </div>
             <div class="grupo-form">
-               <textarea class="campo-form" placeholder="digite sua mensagem" rows="6" id="mensagem"></textarea>
+                <textarea class="campo-form" placeholder="digite sua mensagem" rows="6" id="mensagem"></textarea>
 
             </div>
 
             <button type="submit" class="botao-form">Enviar no WhatsApp</button>
         </form>
-<script>
+        <script>
 
-    function enviarWhats(event) {
-    event.preventDefault();
+            function enviarWhats(event) {
+                event.preventDefault();
 
-    const nome = document.getElementById('nome').value;
-    const mensagem = document.getElementById('mensagem').value;
-    const telefone = '5511952984765';
+                const nome = document.getElementById('nome').value;
+                const mensagem = document.getElementById('mensagem').value;
+                const telefone = '5511952984765';
 
-    const texto = `Olá, me chamo ${nome}. ${mensagem}`;
-    const msgFormatada = encodeURIComponent(texto);
+                const texto = `Olá! Me chamo ${nome}. ${mensagem}`;
+                const msgFormatada = encodeURIComponent(texto);
 
-    const url = `https://wa.me/${telefone}?text=${msgFormatada}`;
+                const url = `https://wa.me/${telefone}?text=${msgFormatada}`;
 
-    window.open(url, '_blank');
-}
+                window.open(url, '_blank');
+            }
 
 
 
-</script>
+        </script>
 
 
 </body>
